@@ -1,0 +1,46 @@
+{
+  "name": "cssauron-json",
+  "version": "0.0.1",
+  "description": "css sauron config for json",
+  "main": "index.js",
+  "dependencies": {
+    "cssauron": "X.X.X"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2",
+    "json-parse-stream": "0.0.1",
+    "cssauron": "~0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/cssauron-json.git"
+  },
+  "keywords": [
+    "cssauron",
+    "json"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "testling": {
+    "files": "test.js",
+    "browsers": {
+      "ie": [
+        8,
+        9,
+        10
+      ],
+      "firefox": [
+        4, 18, 19 
+      ],
+      "chrome": [
+        20, 25
+      ],
+      "safari": [
+        5.1, 6
+      ]
+    }
+  }
+}
