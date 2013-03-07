@@ -1,6 +1,6 @@
 {
   "name": "cssauron-json",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "css sauron config for json",
   "main": "index.js",
   "dependencies": {
@@ -33,13 +33,17 @@
         10
       ],
       "firefox": [
-        4, 18, 19 
+        4,
+        18,
+        19
       ],
       "chrome": [
-        20, 25
+        20,
+        25
       ],
       "safari": [
-        5.1, 6
+        5.1,
+        6
       ]
     }
   }
